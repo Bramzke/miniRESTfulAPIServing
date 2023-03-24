@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Welcome to API-Playground</h1>
+<h2>RNG-API</h2>
+delivers a set of random numbers
+<br />
+<br /><b>sample usage:</b>
+<br />request: <a href="@Url.PageLink()rng/getrandomnumbers?apikey=hallowelt&min=1&max=10&cnt=5&responseformat=html"> @Url.PageLink()rng/getrandomnumbers?apikey=hallowelt&min=1&max=10&cnt=5&responseformat=html </a>
+<br />
+<br />request: <a href="@Url.PageLink()rng/getrandomnumbers?apikey=hallowelt&min=1&max=10&cnt=5&responseformat=json"> @Url.PageLink()rng/getrandomnumbers?apikey=hallowelt&min=1&max=10&cnt=5&responseformat=json </a>
+<br />
+<br />request: <a href="@Url.PageLink()rng/getrandomnumbers?apikey=hallowelt&min=1&max=10&cnt=5&responseformat=xml"> @Url.PageLink()rng/getrandomnumbers?apikey=hallowelt&min=1&max=10&cnt=5&responseformat=xml </a>
+<br />
+<br /><b>sample response:</b>
+<br />
+Json Format:
+<br />
+[684, 434, 864, 261, 375]
